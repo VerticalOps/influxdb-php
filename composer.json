@@ -1,5 +1,5 @@
 {
-    "name": "vops/influxdb-php",
+    "name": "verticalops/influxdb-php",
     "description": "InfluxDB client library for PHP",
     "license": "MIT",
     "keywords": [
