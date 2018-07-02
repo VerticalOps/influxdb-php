@@ -220,7 +220,7 @@ class Builder
             $this->fillClause = ' fill(null)';
 
         } else if (is_numeric($value)) {
-            $this->fillClause = " fill('$value')";
+            $this->fillClause = " fill({$value})";
 
         } else if (is_string($value)) {
             switch($value) {
